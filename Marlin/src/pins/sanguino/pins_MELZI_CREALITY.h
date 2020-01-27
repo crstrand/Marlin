@@ -46,7 +46,7 @@
 #undef LCD_PINS_D5
 #undef LCD_PINS_D6
 #undef LCD_PINS_D7
-#undef FIL_RUNOUT_PIN           // Uses Beeper/LED Pin Pulled to GND
+#define FIL_RUNOUT_PIN     29   // EXT-A (via by R11)
 
 #define LCD_SDSS           31   // Smart Controller SD card reader (rather than the Melzi)
 #define LCD_PINS_RS        28   // ST9720 CS
